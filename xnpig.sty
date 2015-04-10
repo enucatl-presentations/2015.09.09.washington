@@ -1,0 +1,15 @@
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \vspace*{-\topskip}      % remove the initial space
+  \begingroup\centering    % instead of \begin{center}
+  \let \footnote \thanks
+  \hrule height \z@        % to avoid the insertion of lineskip glue
+    {\LARGE \bfseries \@title \par}%
+    {\large
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+  \par\endgroup            % instead of \end{center}
+}
+\makeatother
