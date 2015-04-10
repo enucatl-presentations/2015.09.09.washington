@@ -1,4 +1,4 @@
-# Optimization of X-ray grating interferometry for the Compton regime
+# Dark field and transmission in the Compton regime
 
 For higher energy X-rays produced by a 160 kVp tube, Compton scattering is
 the dominant interaction with matter, especially for medical applications.

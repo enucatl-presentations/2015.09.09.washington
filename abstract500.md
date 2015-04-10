@@ -1,4 +1,4 @@
-# Optimization of X-ray grating interferometry for the Compton regime
+# Dark field and transmission in the Compton regime
 
 Most applications of X-ray radiography and tomography in medicine and
 nondestructive testing require acceleration voltages above 100 kV. The aim
